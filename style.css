@@ -1,0 +1,62 @@
+body{
+    font: normal 15px Arial;
+    text-align: center;
+}
+*{
+    margin: 1rem;
+    background-color: white
+}    
+#itens_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.conteudo {
+    border: 1px solid rgb(136, 136, 238);
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    width: 10rem;
+    min-width: 12.5rem;
+    border-radius: 10px;
+    }
+.imagem{
+    width: 150px;
+}
+.titulo {
+    text-align: center;
+}
+.descricao {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    white-space: pre;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal;
+    margin-top: -10px;
+}
+.novasection{
+    display: flex;
+    justify-content: center;
+    
+}
+#botao{
+    border: 1px solid rgb(161, 138, 138);
+    width: 5rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(181, 181, 247);
+}
+input{
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    background-color: rgb(181, 181, 247);
+}
+h2{
+    display: flex;
+    flex-direction: column;
+}
